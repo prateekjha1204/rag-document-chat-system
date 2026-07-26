@@ -12,12 +12,18 @@ A Retrieval-Augmented Generation (RAG) platform combining an in-memory **ChromaD
 - **Hallucination Reduction:** Grounds LLM generation using retrieved context.
 
 ## 🚀 How to Run
+
+### Vector Backend
+
 ```bash
-# Vector Backend
 pip install -r requirements.txt
 python app.py
+```
 
-# React Interface
+### React Interface
+
+```bash
 cd frontend
 npm install
 npm start
+```
