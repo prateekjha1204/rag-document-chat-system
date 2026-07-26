@@ -1,20 +1,23 @@
-# Context-Aware RAG Engine with ChromaDB
+# Full-Stack RAG Knowledge Retrieval System
 
-A Retrieval-Augmented Generation (RAG) system using **ChromaDB** for vector store indexing and context retrieval to reduce hallucinations in LLM output.
+A Retrieval-Augmented Generation (RAG) platform combining an in-memory **ChromaDB** vector store backend with an interactive **React** search interface.
 
-## Tech Stack
+## 🏗️ Architecture
+- **Frontend:** React.js, JavaScript, HTML5/CSS3.
+- **Backend/Vector Store:** Python, ChromaDB, Sentence-Transformers.
 
-- **Tools:** Python, ChromaDB, Sentence-Transformers, Vector Search.
+## ✨ Features
+- **Semantic Vector Search:** Embeds unstructured text datasets into vector space for quick similarity matching.
+- **Interactive Retrieval Interface:** React dashboard displaying vector search results and augmented prompt construction in real-time.
+- **Hallucination Reduction:** Grounds LLM generation using retrieved context.
 
-## Key Features
-
-- **In-Memory Vector Database:** Fast indexing and retrieval using ChromaDB.
-- **Contextual Query Pipeline:** Embeds knowledge base documents and matches query embeddings using similarity search.
-- **Prompt Augmentation:** Automatically constructs grounded context prompts for LLM consumption.
-
-## How to Run
-
+## 🚀 How to Run
 ```bash
+# Vector Backend
 pip install -r requirements.txt
 python app.py
-```
+
+# React Interface
+cd frontend
+npm install
+npm start
