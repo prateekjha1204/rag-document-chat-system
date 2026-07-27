@@ -15,8 +15,9 @@ A Retrieval-Augmented Generation (RAG) platform combining an in-memory **ChromaD
 
 ## 🚀 How to Run
 
-```bash
 ### Vector Backend
+
+```bash
 pip install -r requirements.txt
 python app.py
 ```
