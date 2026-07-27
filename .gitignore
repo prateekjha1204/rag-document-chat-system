@@ -1,0 +1,57 @@
+# ==========================================
+# Node / React Frontend Dependencies & Builds
+# ==========================================
+frontend/node_modules/
+node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp
+frontend/.pnp.js
+
+# React Environment Files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# ==========================================
+# Python Backend Dependencies & Virtual Envs
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# ChromaDB & Vector Store local data persistence
+.chroma/
+chroma_db/
+*.sqlite3
+
+# Python Environment Variables
+.env
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS System Files
+.DS_Store
+Thumbs.db
